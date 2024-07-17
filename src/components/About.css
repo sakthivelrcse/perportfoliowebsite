@@ -1,0 +1,42 @@
+/* About.css */
+
+#about {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-image {
+    width: px;
+    height: 250px;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-details {
+    text-align: left;
+    max-width: 600px;
+  }
+  
+  .about-details p {
+    margin: 10px 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  /* About.css, Education.css, Skills.css, Projects.css, Contact.css, Certificates.css */
+
+.section {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  

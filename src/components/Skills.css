@@ -1,0 +1,46 @@
+/* Skills.css */
+
+#skills {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .skills-cards-container {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds space between the cards */
+    flex-wrap: wrap; /* Allows wrapping of cards on smaller screens */
+  }
+  
+  .skills-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 200px; /* Set a fixed width for the cards */
+    text-align: center; /* Center align text and icons */
+  }
+  
+  .skills-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .skills-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills-card svg {
+    color: #1e90ff;
+    margin-bottom: 10px;
+  }
+  /* About.css, Education.css, Skills.css, Projects.css, Contact.css, Certificates.css */
+
+.section {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  

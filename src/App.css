@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to right, #5f6974, #0077cc); /* Gradient background */
+  padding: 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Smooth color transition */
+  white-space: nowrap; /* Prevent link text from wrapping */
+}
+
+nav a.active {
+  color: #ffd700; /* Highlight color for active link */
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  background-color: #ff0000;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+section:hover {
+  transform: translateY(-5px); /* Lift section on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+h2 {
+  color: #000000; /* Heading color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* Link Styles */
+a {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f73100;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  nav {
+    flex-direction: column; /* Stack navigation links vertically */
+  }
+
+  nav a {
+    margin: 10px 0; /* Adjust spacing between navigation links */
+  }
+
+  section {
+    padding: 15px; /* Adjust section padding for smaller screens */
+  }
+}

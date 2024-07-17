@@ -1,0 +1,54 @@
+#certificates {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .certificates-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .certificates-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .certificates-card img {
+    width: 200%;
+    max-width: 200px; /* Adjust the width as per your design */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Keep rounded corners for rectangle */
+    margin-bottom: 10px;
+  }
+  
+  .certificates-details h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .certificates-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .certificates-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation */
+  .section {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
