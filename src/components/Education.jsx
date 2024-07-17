@@ -8,7 +8,7 @@ function Education() {
       <h2>Education</h2>
       <div className="education-cards-container">
         <div className="education-card">
-          <h3>Bachelor of Computer Science Engineering - 8 CGPA</h3>
+          <h3>Computer Science Engineering -  8.00 CGPA</h3>
           <p>Saveetha Engineering College, Thandalam Chennai</p>
         </div>
         <div className="education-card">
