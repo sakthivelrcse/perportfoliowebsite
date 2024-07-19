@@ -1,8 +1,15 @@
 import React from 'react';
+<<<<<<< HEAD
 import './Contact.css'; // Import the CSS file
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'; // Example solid icon for portfolio
+=======
+import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+>>>>>>> 5ea4e0f (Initial commit)
 
 function Contact() {
   return (

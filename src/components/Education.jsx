@@ -1,6 +1,11 @@
 import React from 'react';
+<<<<<<< HEAD
 import './Education.css'; // Import the CSS file
 import resume from '../assets/resume.pdf'; // Import the resume file
+=======
+import './Education.css'; 
+import resume from '../assets/resume.pdf'; 
+>>>>>>> 5ea4e0f (Initial commit)
 
 function Education() {
   return (

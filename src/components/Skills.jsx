@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faAtom, faDatabase, faChartLine } from '@fortawesome/free-solid-svg-icons';
+<<<<<<< HEAD
 import { faGithub } from '@fortawesome/free-brands-svg-icons'; // Import the GitHub icon
 import './Skills.css'; // Import the CSS file
+=======
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; 
+import './Skills.css'; 
+>>>>>>> 5ea4e0f (Initial commit)
 
 function Skills() {
   const [visible, setVisible] = useState(false);
@@ -21,7 +26,11 @@ function Skills() {
         </div>
         <div className="skills-card">
           <FontAwesomeIcon icon={faAtom} size="3x" />
+<<<<<<< HEAD
           <h3>React, Redux, Router</h3>
+=======
+          <h3>React.js</h3>
+>>>>>>> 5ea4e0f (Initial commit)
         </div>
         <div className="skills-card">
           <FontAwesomeIcon icon={faDatabase} size="3x" />

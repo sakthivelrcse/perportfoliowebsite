@@ -1,24 +1,39 @@
+<<<<<<< HEAD
 /* Contact.css */
 
+=======
+>>>>>>> 5ea4e0f (Initial commit)
 #contact {
   padding: 40px 20px;
   background-color: #f9f9f9;
   text-align: center;
+<<<<<<< HEAD
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+=======
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+>>>>>>> 5ea4e0f (Initial commit)
 }
 
 #contact h2 {
   color: #282c34;
+<<<<<<< HEAD
   font-size: 2em;
   margin-bottom: 20px;
+=======
+  font-size: 40px;
+>>>>>>> 5ea4e0f (Initial commit)
 }
 
 .contact-info {
   max-width: 400px;
   margin: 0 auto;
   text-align: left;
+<<<<<<< HEAD
   background-color: #fff; /* Background for contact info */
   padding: 20px;
   border-radius: 8px;
@@ -29,11 +44,36 @@
 .contact-info:hover {
   transform: translateY(-5px); /* Lift effect on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+=======
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+>>>>>>> 5ea4e0f (Initial commit)
 }
 
 .contact-info p {
   margin: 10px 0;
+<<<<<<< HEAD
   color: #333;
+=======
+  color: #000000;
+}
+
+.contact-info a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+>>>>>>> 5ea4e0f (Initial commit)
 }
 
 .social-links {
@@ -50,6 +90,7 @@
 .social-links a {
   color: #1e90ff;
   text-decoration: none;
+<<<<<<< HEAD
   position: relative;
   font-size: 1.5em; /* Adjust icon size */
 }
@@ -74,4 +115,46 @@
 
 .social-links a:hover {
   text-decoration: none;
+=======
+  font-size: 1.5em;
+}
+
+.social-links a:hover {
+  color: #005fa3;
+}
+
+.App.night #contact {
+  background-color: #2e2e2e;
+  color: #f9f9f9;
+}
+
+.App.night #contact h2 {
+  color: #ffffff;
+}
+
+.App.night .contact-info {
+  background-color: #444;
+  color: #f9f9f9;
+}
+.App.night .contact-info p{
+  background-color: #444;
+  color: #f9f9f9;
+}
+
+
+.App.night .contact-info a {
+  color: #1e90ff;
+}
+
+.App.night .contact-info a:hover {
+  color: #1c6abf;
+}
+
+.App.night .social-links a {
+  color: #f9f9f9;
+}
+
+.App.night .social-links a:hover {
+  color: #ddd;
+>>>>>>> 5ea4e0f (Initial commit)
 }

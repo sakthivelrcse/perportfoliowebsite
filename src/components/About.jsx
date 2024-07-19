@@ -11,7 +11,11 @@ function About() {
 
   return (
     <section id="about" className='section'>
+<<<<<<< HEAD
       <h2>About Me</h2>
+=======
+      <h2 className='abtext'>About Me</h2>
+>>>>>>> 5ea4e0f (Initial commit)
       <div className="about-container">
         <img src={profilePic} alt="Sakthivel" className="about-image" />
         <div className="about-details">

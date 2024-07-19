@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 /* Global Styles */
+=======
+>>>>>>> 5ea4e0f (Initial commit)
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   background-color: #f0f0f0; /* Light background color */
+=======
+  background-color: #f0f0f0;
+>>>>>>> 5ea4e0f (Initial commit)
 }
 
 .App {
@@ -12,10 +19,30 @@ body {
 }
 
 header {
+<<<<<<< HEAD
   background: linear-gradient(to right, #5f6974, #0077cc); /* Gradient background */
   padding: 20px;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+=======
+  background: linear-gradient(to right, #5f6974, #0077cc);
+  padding: 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+>>>>>>> 5ea4e0f (Initial commit)
 }
 
 nav {
@@ -29,6 +56,7 @@ nav a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
+<<<<<<< HEAD
   font-size: 18px;
   transition: color 0.3s ease; /* Smooth color transition */
   white-space: nowrap; /* Prevent link text from wrapping */
@@ -39,11 +67,23 @@ nav a.active {
 }
 
 /* Section Styles */
+=======
+  font-size: 20px;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+nav a.active {
+  color: #ffd700;
+}
+
+>>>>>>> 5ea4e0f (Initial commit)
 section {
   padding: 20px;
   background-color: #ff0000;
   margin: 20px auto;
   border-radius: 8px;
+<<<<<<< HEAD
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
@@ -55,6 +95,19 @@ section:hover {
 
 h2 {
   color: #000000; /* Heading color */
+=======
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #000000;
+>>>>>>> 5ea4e0f (Initial commit)
 }
 
 ul {
@@ -66,7 +119,51 @@ ul li {
   margin: 10px 0;
 }
 
+<<<<<<< HEAD
 /* Link Styles */
+=======
+.App.day {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.App.day section {
+  background-color: white;
+}
+
+.App.night {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.App.night header {
+  background: linear-gradient(to right, #333, #444);
+}
+.App.night .header-content h1 {
+  color: rgb(255, 255, 255);
+}
+
+.App.night nav a {
+  color: #ffffff;
+}
+
+.App.night nav a.active {
+  color: #ffd700;
+}
+
+.App.night section {
+  background-color: #333;
+}
+
+.App.night a {
+  color: #9acd32;
+}
+
+.App.night a:hover {
+  color: #f70000;
+}
+
+>>>>>>> 5ea4e0f (Initial commit)
 a {
   color: #1e90ff;
   text-decoration: none;
@@ -74,6 +171,7 @@ a {
 }
 
 a:hover {
+<<<<<<< HEAD
   color: #f73100;
 }
 
@@ -93,5 +191,25 @@ a:hover {
 
   section {
     padding: 15px; /* Adjust section padding for smaller screens */
+=======
+  color: #00ff1a;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 15px;
+>>>>>>> 5ea4e0f (Initial commit)
   }
 }

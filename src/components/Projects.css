@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Projects.css */
 
 #projects {
@@ -59,3 +60,110 @@
     animation: fadeIn 0.5s ease forwards;
   }
   
+=======
+#projects {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #333;
+}
+
+.projects-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#projects h2{
+  font-size: 40px;
+}
+.projects-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  width: 300px;
+  text-align: left;
+  height: 400px;
+  position: relative;
+}
+
+.projects-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.projects-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.projects-card p {
+  margin: 0 0 10px;
+  color: #666;
+  flex: 1;
+}
+
+.projects-card .container {
+  margin-top: auto;
+}
+
+.proview {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0077cc;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.proview:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+}
+
+.projects-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.App.night #projects {
+  background-color: #2e2e2e;
+  color: #f9f9f9;
+}
+
+.App.night #projects h2 {
+  color: #ffffff;
+}
+
+.App.night .projects-card {
+  background-color: #444;
+  color: #f9f9f9;
+}
+
+.App.night .projects-card img {
+  border: 1px solid #666;
+}
+
+.App.night .projects-card h3 {
+  color: #f9f9f9;
+}
+
+.App.night .projects-card p {
+  color: #bbb;
+}
+
+.App.night .projects-card a {
+  color: #ffffff;
+}
+>>>>>>> 5ea4e0f (Initial commit)

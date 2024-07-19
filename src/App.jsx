@@ -6,9 +6,17 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Certificates from './components/Certificates';
+<<<<<<< HEAD
 
 function App() {
   const [activeSection, setActiveSection] = useState('');
+=======
+import ToggleButton from './components/ToggleButton';
+
+function App() {
+  const [activeSection, setActiveSection] = useState('');
+  const [theme, setTheme] = useState('day'); 
+>>>>>>> 5ea4e0f (Initial commit)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,20 +50,43 @@ function App() {
     };
   }, []);
 
+<<<<<<< HEAD
   return (
     <div className="App">
       <header>
         <h1>My Personal Portfolio</h1>
+=======
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'day' ? 'night' : 'day'));
+  };
+
+  return (
+    <div className={`App ${theme}`}>
+      <header>
+        <div className="header-content">
+          <h1>My Personal Portfolio</h1>
+          <ToggleButton theme={theme} toggleTheme={toggleTheme} />
+        </div>
+>>>>>>> 5ea4e0f (Initial commit)
         <nav>
           <a href="#about" className={activeSection === 'about' ? 'active' : ''}>
             About
           </a>
+<<<<<<< HEAD
           <a href="#skills" className={activeSection === 'skills' ? 'active' : ''}>
             Skills
           </a>
           <a href="#education" className={activeSection === 'education' ? 'active' : ''}>
             Education
           </a>
+=======
+          <a href="#education" className={activeSection === 'education' ? 'active' : ''}>
+            Education
+          </a>
+          <a href="#skills" className={activeSection === 'skills' ? 'active' : ''}>
+            Skills
+          </a>
+>>>>>>> 5ea4e0f (Initial commit)
           <a href="#certificates" className={activeSection === 'certificates' ? 'active' : ''}>
             Certificates
           </a>
